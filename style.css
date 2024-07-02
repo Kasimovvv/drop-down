@@ -1,0 +1,154 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+body {
+  background-color: #000000;
+  color: white;
+}
+
+main {
+  height: 1000px;
+  background-image: url("./Rasm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.kes {
+  color: white;
+}
+
+.head-left button {
+  border-radius: 10px;
+  background-color: rgb(96, 96, 222);
+}
+
+.sel {
+  color: white;
+}
+
+.main-parent button {
+  background-color: yellow;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 5px solid black;
+  margin-top: 250px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-parent {
+  margin-top: 100px;
+}
+
+.main {
+  margin-left: 100px;
+  height: 350px;
+  width: 380px;
+  background-image: url("./image\ 5.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 10px;
+  display: flex;
+  gap: 3px;
+}
+
+.main-parent {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: gray;
+  border: none;
+}
+
+.box h3 {
+  text-align: center;
+  text-shadow: 4px 4px 4px yellow;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 36px;
+}
+
+.h1-shadow {
+  text-shadow: 4px 4px 4px #5a5555;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.p-parent {
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+p {
+  line-height: 28px;
+}
+
+.Read {
+  padding: 10px 20px;
+  color: white;
+  background-color: #3c3939;
+  margin-top: 130px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.Rea {
+  padding: 10px 20px;
+  color: black;
+  background-color: yellow;
+}
+footer {
+  width: 100%;
+  background-color: yellow;
+}
+.footer-container {
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-parent {
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
